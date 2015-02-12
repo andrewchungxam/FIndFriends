@@ -1,0 +1,18 @@
+﻿<Properties StartupItem="XamarinMaps/XamarinMaps.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone6Plus.8.1" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="XamarinMaps/XamarinMapsViewController.cs">
+    <Files>
+      <File FileName="XamarinMaps/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="XamarinMaps/Entitlements.plist" />
+      <File FileName="XamarinMaps/Info.plist" />
+      <File FileName="XamarinMaps/Main.cs" Line="1" Column="1" />
+      <File FileName="XamarinMaps/XamarinMapsViewController.designer.cs" Line="1" Column="1" />
+      <File FileName="XamarinMaps/XamarinMapsViewController.cs" Line="36" Column="36" />
+      <File FileName="../ios230-maps-and-location-in-ios/Lab Materials/Lab 01 resources/MappingIOSLab_Begin/MappingIOSLab_demo1/Main.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

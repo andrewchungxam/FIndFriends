@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinMaps", "XamarinMaps\XamarinMaps.csproj", "{CE11405F-E7F3-4670-A8AD-D139AA0A48B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE11405F-E7F3-4670-A8AD-D139AA0A48B9}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{CE11405F-E7F3-4670-A8AD-D139AA0A48B9}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{CE11405F-E7F3-4670-A8AD-D139AA0A48B9}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{CE11405F-E7F3-4670-A8AD-D139AA0A48B9}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{CE11405F-E7F3-4670-A8AD-D139AA0A48B9}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{CE11405F-E7F3-4670-A8AD-D139AA0A48B9}.Debug|iPhone.Build.0 = Debug|iPhone
+		{CE11405F-E7F3-4670-A8AD-D139AA0A48B9}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{CE11405F-E7F3-4670-A8AD-D139AA0A48B9}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{CE11405F-E7F3-4670-A8AD-D139AA0A48B9}.Release|iPhone.ActiveCfg = Release|iPhone
+		{CE11405F-E7F3-4670-A8AD-D139AA0A48B9}.Release|iPhone.Build.0 = Release|iPhone
+		{CE11405F-E7F3-4670-A8AD-D139AA0A48B9}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{CE11405F-E7F3-4670-A8AD-D139AA0A48B9}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+EndGlobal
