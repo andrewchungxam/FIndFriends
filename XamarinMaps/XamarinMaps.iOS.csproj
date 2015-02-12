@@ -114,7 +114,12 @@
     <Compile Include="XamarinMapsViewController.designer.cs">
       <DependentUpon>XamarinMapsViewController.cs</DependentUpon>
     </Compile>
-    <Compile Include="LocationDataPoint.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\XamarinMapsShared\XamarinMapsPortable.csproj">
+      <Project>{903AE5D1-8DDE-453B-A6F6-9A090E6E8948}</Project>
+      <Name>XamarinMapsPortable</Name>
+    </ProjectReference>
+  </ItemGroup>
 </Project>
