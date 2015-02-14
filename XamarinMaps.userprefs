@@ -7,9 +7,19 @@
       <File FileName="XamarinMaps/Info.plist" />
       <File FileName="XamarinMaps/Main.cs" Line="1" Column="1" />
       <File FileName="XamarinMaps/XamarinMapsViewController.designer.cs" Line="1" Column="1" />
-      <File FileName="XamarinMaps/XamarinMapsViewController.cs" Line="36" Column="36" />
-      <File FileName="../ios230-maps-and-location-in-ios/Lab Materials/Lab 01 resources/MappingIOSLab_Begin/MappingIOSLab_demo1/Main.cs" Line="1" Column="1" />
+      <File FileName="XamarinMaps/XamarinMapsViewController.cs" Line="1" Column="1" />
+      <File FileName="XamarinMaps/LocationDataPoint.cs" Line="1" Column="1" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="XamarinMaps" expanded="True">
+            <Node name="ComponentReferenceFolder" expanded="True" />
+            <Node name="XamarinMapsViewController.cs" expanded="True" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

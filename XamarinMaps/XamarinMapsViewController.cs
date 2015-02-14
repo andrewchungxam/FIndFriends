@@ -9,6 +9,8 @@ using CoreLocation;
 using System.Linq;
 using System.Collections.Generic;
 
+
+
 namespace XamarinMaps
 {
 	public partial class XamarinMapsViewController : UIViewController
@@ -44,6 +46,7 @@ namespace XamarinMaps
 			locationManager = new CLLocationManager ();
 			locationManager.RequestWhenInUseAuthorization ();
 			locationManager.RequestAlwaysAuthorization ();
+			locationManager.StartUpdatingLocation ();
 			map.ShowsUserLocation = true;
 			this.View = map;
 
@@ -53,6 +56,9 @@ namespace XamarinMaps
 
 			//QUESTION - how do I get the user's latitude? 
 //			userLat = map.UserLocation.Coordinate.Latitude;
+
+			//userLat = 42.374260;
+			//userLon = -71.120824;
 			userLat = locationManager.Location.Coordinate.Latitude;
 			//QUESTION - how do I get the user's longitute?
 			//		userLon = map.UserLocation.Coordinate.Longitude;
@@ -79,9 +85,8 @@ namespace XamarinMaps
 				Longitude = userLon, 
 				aDateTime = DateTime.Now 
 			};
-
-			locationHistory.Add (aDataPoint);
-			Console.WriteLine ("Time {0}, Lat {1}, Lon {2}", aDataPoint.aDateTime, aDataPoint.Latitude, aDataPoint.Longitude);
+				locationHistory.Add (aDataPoint);
+				Console.WriteLine ("Time {0}, Lat {1}, Lon {2}", aDataPoint.aDateTime, aDataPoint.Latitude, aDataPoint.Longitude);
 
 
 
