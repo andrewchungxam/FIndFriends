@@ -10,3 +10,16 @@
 /Users/andrewchung/Projects/XamarinMaps/XamarinMaps/bin/iPhoneSimulator/Debug/XamarinMaps.exe
 /Users/andrewchung/Projects/XamarinMaps/XamarinMaps/obj/iPhoneSimulator/Debug/XamarinMaps.exe
 /Users/andrewchung/Projects/XamarinMaps/XamarinMaps/obj/iPhoneSimulator/Debug/XamarinMaps.exe.mdb
+/Users/andrewchung/Development/gitFindFriends/XamarinMaps/obj/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/andrewchung/Development/gitFindFriends/XamarinMaps/obj/iPhoneSimulator/Debug/ibtool/LaunchScreen.nib
+/Users/andrewchung/Development/gitFindFriends/XamarinMaps/obj/iPhoneSimulator/Debug/ibtool/MainStoryboard.storyboardc/Info.plist
+/Users/andrewchung/Development/gitFindFriends/XamarinMaps/obj/iPhoneSimulator/Debug/ibtool/MainStoryboard.storyboardc/UIViewController-vXZ-lx-hvc.nib
+/Users/andrewchung/Development/gitFindFriends/XamarinMaps/obj/iPhoneSimulator/Debug/ibtool/MainStoryboard.storyboardc/vXZ-lx-hvc-view-kh9-bI-dsS.nib
+/Users/andrewchung/Development/gitFindFriends/XamarinMaps/obj/iPhoneSimulator/Debug/actool/partial-info.plist
+/Users/andrewchung/Development/gitFindFriends/XamarinMaps/obj/iPhoneSimulator/Debug/actool/asset-manifest.plist
+/Users/andrewchung/Development/gitFindFriends/XamarinMaps/obj/iPhoneSimulator/Debug/
+/Users/andrewchung/Development/gitFindFriends/XamarinMaps/bin/iPhoneSimulator/Debug/XamarinMaps.exe.mdb
+/Users/andrewchung/Development/gitFindFriends/XamarinMaps/bin/iPhoneSimulator/Debug/XamarinMaps.exe
+/Users/andrewchung/Development/gitFindFriends/XamarinMaps/obj/iPhoneSimulator/Debug/XamarinMaps.exe
+/Users/andrewchung/Development/gitFindFriends/XamarinMaps/obj/iPhoneSimulator/Debug/XamarinMaps.exe.mdb
+/Users/andrewchung/Development/gitFindFriends/XamarinMaps/bin/iPhoneSimulator/Debug/SQLite.dll

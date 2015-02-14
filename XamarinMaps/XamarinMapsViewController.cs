@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Drawing;
 
+
 using Foundation;
 using UIKit;
 using MapKit;
@@ -8,6 +9,9 @@ using CoreLocation;
 
 using System.Linq;
 using System.Collections.Generic;
+using System.Timers;
+//using SQLite;
+//using System.IO;
 
 namespace XamarinMaps
 {
@@ -18,10 +22,23 @@ namespace XamarinMaps
 //		MyMapDelegate mapDel;
 		List<LocationDataPoint> locationHistory; 
 
+
 		public XamarinMapsViewController (IntPtr handle) : base (handle)
 		{
 			locationHistory = new List<LocationDataPoint> ();
+
 		}
+
+		void HandleElapsed (object sender, ElapsedEventArgs e)
+		{
+			//create new DataPoint - lat, lon, datetime
+			//add new DataPoint to LocationHistroy
+			// put up to Azure
+
+
+		}
+
+
 
 		public override void DidReceiveMemoryWarning ()
 		{
