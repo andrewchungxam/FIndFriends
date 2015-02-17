@@ -53,6 +53,8 @@ namespace XamarinMaps
 
 			//QUESTION - how do I get the user's latitude? 
 //			userLat = map.UserLocation.Coordinate.Latitude;
+			locationManager.StartUpdatingLocation ();
+
 			userLat = locationManager.Location.Coordinate.Latitude;
 			//QUESTION - how do I get the user's longitute?
 			//		userLon = map.UserLocation.Coordinate.Longitude;
