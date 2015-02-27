@@ -19,8 +19,8 @@ namespace XamarinMaps
 			Console.WriteLine ("DataAccess worked!");
 
 
-			var output = "";
-			output += "\nCreating database, if it doesn't already exist";
+//2			var output = "";
+//2			output += "\nCreating database, if it doesn't already exist";
 			string dbPath = Path.Combine (
 				Environment.GetFolderPath (Environment.SpecialFolder.Personal), "XamarinMapsLocation.db3");
 
@@ -28,7 +28,7 @@ namespace XamarinMaps
 			db.CreateTable<LocationDataPoint> (); // this will probably mess things up
 			db.Insert (inputDataPoint);
 
-			if (db.Table<LocationDataPoint> ().Count() == 0) {
+//2			if (db.Table<LocationDataPoint> ().Count() == 0) {
 				// only insert the data if it doesn't already exist
 //								var newStock = new Stock ();
 //								newStock.Symbol = "AAPL";
@@ -41,12 +41,12 @@ namespace XamarinMaps
 //								newStock = new Stock ();
 //								newStock.Symbol = "MSFT";
 //								db.Insert (newStock);
-			}
+//2			}
 
-						output += "\nReading data using Orm";
+//2						output += "\nReading data using Orm";
 			var table = db.Table<LocationDataPoint> ();
 						foreach (var s in table) {
-				output += "\n" + s.Id + " " + s.Latitude + s.Longitude;
+	//2			output += "\n" + s.Id + " " + s.Latitude + s.Longitude;
 
 				Console.WriteLine ("Stored Time {0}, Lat {1}, Lon {2}", s.aDateTime, s.Latitude, s.Longitude);
 
