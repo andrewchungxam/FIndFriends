@@ -8,7 +8,10 @@ using CoreLocation;
 
 using System.Linq;
 using System.Collections.Generic;
+using System.Timers;
 
+using System.IO;
+using SQLite;
 
 
 namespace XamarinMaps
@@ -19,11 +22,51 @@ namespace XamarinMaps
 		CLLocationManager locationManager;
 //		MyMapDelegate mapDel;
 		List<LocationDataPoint> locationHistory; 
+		Timer myLocationTimer;
 
 		public XamarinMapsViewController (IntPtr handle) : base (handle)
 		{
 			locationHistory = new List<LocationDataPoint> ();
+			//myLocationTimer = new Timer (3600000);
+			myLocationTimer = new Timer (3600);
+
+			myLocationTimer.Elapsed += HandleElapsed;
+			myLocationTimer.Enabled = true;  //https://msdn.microsoft.com/en-us/library/system.timers.timer%28v=vs.110%29.aspx
+
 		}
+
+		void HandleElapsed (object sender, ElapsedEventArgs e){
+
+
+			//1 create new DataPoint - lat, lon, datetime
+
+			double saveUserLat;
+			double saveUserLon;
+
+			saveUserLat = locationManager.Location.Coordinate.Latitude;
+			saveUserLon = locationManager.Location.Coordinate.Longitude;
+
+			//2 add new DataPoint to LocationHistroy
+			LocationDataPoint aDataPoint;
+			aDataPoint = new LocationDataPoint () 
+			{ 
+				Latitude = saveUserLat, 
+				Longitude = saveUserLon, 
+				aDateTime = DateTime.Now 
+			};
+			locationHistory.Add (aDataPoint);
+			Console.WriteLine ("Time {0}, Lat {1}, Lon {2}", aDataPoint.aDateTime, aDataPoint.Latitude, aDataPoint.Longitude);
+
+			//3 store it
+
+			DataAccess.DoSomeDataAccess (aDataPoint);
+
+			//4 put up to Azure
+
+		}
+
+
+
 
 		public override void DidReceiveMemoryWarning ()
 		{
@@ -60,7 +103,7 @@ namespace XamarinMaps
 			//userLat = 42.374260;
 			//userLon = -71.120824;
 			userLat = locationManager.Location.Coordinate.Latitude;
-			//QUESTION - how do I get the user's longitute?
+			////QUESTION - how do I get the user's longitute?
 			//		userLon = map.UserLocation.Coordinate.Longitude;
 			userLon = locationManager.Location.Coordinate.Longitude;
 //			userLon = map.UserLocation.Coordinate.Longitude;

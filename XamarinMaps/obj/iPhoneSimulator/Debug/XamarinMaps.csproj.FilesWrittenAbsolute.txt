@@ -10,3 +10,4 @@
 /Users/andrewchung/Development/gitFindFriends/XamarinMaps/bin/iPhoneSimulator/Debug/XamarinMaps.exe
 /Users/andrewchung/Development/gitFindFriends/XamarinMaps/obj/iPhoneSimulator/Debug/XamarinMaps.exe
 /Users/andrewchung/Development/gitFindFriends/XamarinMaps/obj/iPhoneSimulator/Debug/XamarinMaps.exe.mdb
+/Users/andrewchung/Development/gitFindFriends/XamarinMaps/bin/iPhoneSimulator/Debug/SQLite.dll
