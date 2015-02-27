@@ -89,7 +89,7 @@ namespace XamarinMaps
 			locationManager = new CLLocationManager ();
 			locationManager.RequestWhenInUseAuthorization ();
 			locationManager.RequestAlwaysAuthorization ();
-			locationManager.StartUpdatingLocation ();
+			//locationManager.StartUpdatingLocation ();
 			map.ShowsUserLocation = true;
 			this.View = map;
 
@@ -100,8 +100,13 @@ namespace XamarinMaps
 			//QUESTION - how do I get the user's latitude? 
 //			userLat = map.UserLocation.Coordinate.Latitude;
 
+			locationManager.StartUpdatingLocation ();
+
+
+
 			//userLat = 42.374260;
 			//userLon = -71.120824;
+
 			userLat = locationManager.Location.Coordinate.Latitude;
 			////QUESTION - how do I get the user's longitute?
 			//		userLon = map.UserLocation.Coordinate.Longitude;
